@@ -1,0 +1,87 @@
+/* Navbar */
+.navbar-brand img { max-width: 100px; }
+
+.bg-dark { background: #333a40!important; }
+
+/* Buy Ticket Button*/
+.btn-compra-tickets { color: #25a342; }
+
+@media (min-width: 992px) {
+  .btn-compra-tickets {
+    border: 1px solid transparent;
+    border-radius: .8rem;
+  }
+  .btn-compra-tickets:hover,
+  .navbar-dark .navbar-nav .btn-compra-tickets.active {
+    color: #fff;
+    background-color: #198754;
+    border-color: #198754;
+    border-radius: 0.375rem;
+  }
+}
+
+/* Titles */
+.titulo {
+  text-align: center;
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+.titulo span {
+  display: block;
+  font-weight: 700;
+  font-size: 2.2rem;
+} 
+
+/* Conference Section */
+.bg-conference-ba1 { background-image: url(../img/ba1-min.jpg); }
+
+.conference {
+  background-size: cover;
+  background-position: center center;
+  height: 37rem;
+  min-height: 95vh;
+}
+.conference svg { opacity: .5; }
+
+.conference-caption {
+  bottom: 5rem;
+  z-index: 10;
+  position: absolute;
+  right: 10%;
+  left: 15%;
+  padding-top: 1.25rem;
+  color: #fff;
+}
+
+/* Section Place and Date */
+.bg-place-date {
+  background: #333a40;
+  padding: 2rem;
+}
+
+/* Form */
+.btn-form {
+  background: #96c93e;
+  color: #fff !important;
+}
+
+.btn-form:hover { background: #74aa17; }
+
+/* Footer */
+#main-footer {
+  background: #1d3c4e;
+  color: #fff;
+  padding: 1rem;
+}
+
+#main-footer .nav-link {
+  color: #fff;
+  text-align: center;
+}
+
+#main-footer .nav-link:hover { opacity: .7; }
+
+@media (min-width: 992px) {
+  #main-footer .nav-link span { display: block; }
+}

@@ -33,25 +33,28 @@
   font-size: 2.2rem;
 } 
 
-/* Conference Section */
-.bg-conference-ba1 { background-image: url(../img/ba1-min.jpg); }
+/* Carousel */
+.bg-carousel-ba1 { background-image: url(../img/ba1-min.jpg); }
+.bg-carousel-ba2 { background-image: url(../img/ba2-min.jpg); }
+.bg-carousel-ba3 { background-image: url(../img/ba3-min.jpg); }
 
-.conference {
+.carousel-item {
   background-size: cover;
   background-position: center center;
-  height: 37rem;
-  min-height: 95vh;
 }
-.conference svg { opacity: .5; }
 
-.conference-caption {
-  bottom: 5rem;
+.carousel-item svg { opacity: .5; }
+
+.carousel-caption {
+  bottom: 3rem;
   z-index: 10;
-  position: absolute;
-  right: 10%;
-  left: 15%;
   padding-top: 1.25rem;
   color: #fff;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
 }
 
 /* Section Place and Date */
